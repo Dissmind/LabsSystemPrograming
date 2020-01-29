@@ -1,0 +1,14 @@
+D:\archiv\dev\source\csharp\Labs\Labs\bin\Debug\Labs.exe.config
+D:\archiv\dev\source\csharp\Labs\Labs\bin\Debug\Labs.exe
+D:\archiv\dev\source\csharp\Labs\Labs\bin\Debug\Labs.pdb
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\Labs.csprojAssemblyReference.cache
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\MainWindow.g.cs
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\App.g.cs
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\Labs_MarkupCompile.cache
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\Labs_MarkupCompile.lref
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\MainWindow.baml
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\Labs.g.resources
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\Labs.Properties.Resources.resources
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\Labs.csproj.GenerateResource.cache
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\Labs.exe
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\Labs.pdb
