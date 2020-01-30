@@ -12,3 +12,7 @@ D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\Labs.Properties.Resources.resour
 D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\Labs.csproj.GenerateResource.cache
 D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\Labs.exe
 D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\Labs.pdb
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\WindowLabs2.g.cs
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\WindowLabs2.baml
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\WindowLabs3.g.cs
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\WindowLabs3.baml

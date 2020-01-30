@@ -24,5 +24,16 @@ namespace Labs
         {
             InitializeComponent();
         }
+
+        private void Button_Click_Open_Labs3(object sender, RoutedEventArgs e)
+        {
+            WindowLabs3 window = new WindowLabs3();
+            window.Show();
+        }
+        private void Button_Click_Open_Labs2(object sender, RoutedEventArgs e)
+        {
+            WindowLabs2 window = new WindowLabs2();
+            window.Show();
+        }
     }
 }
