@@ -9,8 +9,13 @@
 
     <Grid>
         <StackPanel>
-            <Button x:Name="Button_Lab2" Content="Лабораторная №2" Click="Button_Click_Open_Labs2" Margin="100, 10, 100, 10" Height="30"/>
+            <Button x:Name="Button_Lab2"
+                    Content="Лабораторная №2"
+                    Click="Button_Click_Open_Labs2"
+                    Margin="100, 10, 100, 10"
+                    Height="30"/>
             <Button x:Name="Button_Lab3" Content="Лабораторная №3" Click="Button_Click_Open_Labs3" Margin="100, 10, 100, 10" Height="30"/>
+            <Button x:Name="Button_Lab3_Copy" Content="Старые лабораторные работы" Click="Button_Click_Open_OldLabs" Margin="100, 10, 100, 10" Height="30"/>
         </StackPanel>
     </Grid>
 </Window>

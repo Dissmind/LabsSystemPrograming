@@ -5,53 +5,89 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Labs"
         mc:Ignorable="d"
-        Title="WindowLabs2" Height="450" Width="800">
+        Title="WindowLabs2" Height="468.4" Width="816">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="auto"></RowDefinition>
-            <RowDefinition Height="40"></RowDefinition>
-            <RowDefinition Height="40"></RowDefinition>
-        </Grid.RowDefinitions>
-
         <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-
-        <StackPanel Height="auto" Grid.Row="0" Grid.Column="0" Margin="8" Grid.ColumnSpan="2">
-            <TextBox MinHeight="360" Text="First Text Block"></TextBox>
-        </StackPanel>
-
-        <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="8, 1, 8, 0">
-            <Button>Push Button</Button>
-        </StackPanel>
-
-        <StackPanel Margin="8, -10, 8, 1" Grid.Row="2" Grid.Column="0">
-            <Button>2Push Button</Button>
-        </StackPanel>
-
-        <StackPanel Margin="8, -10, 8, 1" Grid.Row="2" Grid.Column="1">
-            <Button Height="auto" >3Push Button</Button>
-        </StackPanel>
-
-        <StackPanel Grid.Row="1" Grid.Column="3" Grid.RowSpan="2" Orientation="Horizontal" Width="auto">
-            <StackPanel>
-                <CheckBox x:Name="checkBox1" IsThreeState="False" IsChecked="False" Content="CheckBox" Margin="12, 6, 20, 6"/>
-                <CheckBox x:Name="checkBox2" IsThreeState="False" IsChecked="True" Content="CheckBox" Margin="12, 6, 20, 6"/>
-            </StackPanel>
-            <StackPanel>
-                <CheckBox x:Name="checkBox3" IsThreeState="False" IsChecked="False" Content="CheckBox" Margin="8, 6, 20, 6"/>
-                <CheckBox x:Name="checkBox4" IsThreeState="False" IsChecked="False" Content="CheckBox" Margin="8, 6, 20, 6"/>
-            </StackPanel>
-        </StackPanel>
-
-        <StackPanel Height="auto" Margin="8" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2">
-            <TextBox MinHeight="300" Text="Second Text Block"></TextBox>
-
-            <ComboBox Margin="4"></ComboBox>
-            <ComboBox Margin="4"></ComboBox>
-        </StackPanel>
+        
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="36" />
+                <RowDefinition Height="36"/>
+            </Grid.RowDefinitions>
+            
+            <TextBox Grid.Row="0" 
+                     MinHeight="360" 
+                     Text="First Text Block"
+                     Margin="8, 1, 8, 0"/>
+            <Button Grid.Row="1" Height="20" Margin="8">Push Button</Button>
+            
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                
+                <Button Margin="8" Grid.Column="0">2Push Button</Button>
+                <Button Margin="8" Grid.Column="1">3Push Button</Button>
+            </Grid>
+        </Grid>
+        
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="28"/>
+                <RowDefinition Height="28"/>
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+            <TextBox Grid.Row="0" 
+                     MinHeight="300"
+                     Margin="8, 1, 8, 0"
+                     Text="Second Text Block"/>
+            <ComboBox Grid.Row="1" Margin="4"/>
+            <ComboBox Grid.Row="2" Margin="4"/>
+            
+            <Grid Grid.Row="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <StackPanel Orientation="Vertical" Grid.Column="0">
+                        <CheckBox x:Name="checkBox1" 
+                              IsThreeState="False" 
+                              IsChecked="False" 
+                              Content="CheckBox" 
+                              Margin="12, 6, 20, 6"/>
+                        <CheckBox x:Name="checkBox2" 
+                              IsThreeState="False" 
+                              IsChecked="True" 
+                              Content="CheckBox" 
+                              Margin="12, 6, 20, 6"/>
+                    </StackPanel>
+                    
+                    <StackPanel Orientation="Vertical" Grid.Column="1">
+                        <CheckBox x:Name="checkBox3" 
+                                  IsThreeState="False" 
+                                  IsChecked="False" 
+                                  Content="CheckBox" 
+                                  Margin="8, 6, 20, 6"/>
+                        <CheckBox x:Name="checkBox4" 
+                                  IsThreeState="False" 
+                                  IsChecked="False" 
+                                  Content="CheckBox" 
+                                  Margin="8, 6, 20, 6"/>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </Grid>
     </Grid>
 </Window>

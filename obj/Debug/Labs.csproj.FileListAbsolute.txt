@@ -16,3 +16,9 @@ D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\WindowLabs2.g.cs
 D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\WindowLabs2.baml
 D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\WindowLabs3.g.cs
 D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\WindowLabs3.baml
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\OldLabs\MainWindow.g.cs
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\OldLabs\MainWindow.baml
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\OldLabs\Lab1Window.g.cs
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\OldLabs\Lab1Window.baml
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\OldLabs\Lab2Window.g.cs
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\OldLabs\Lab2Window.baml

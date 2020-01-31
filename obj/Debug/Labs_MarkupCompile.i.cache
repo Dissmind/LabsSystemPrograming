@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\archiv\dev\source\csharp\Labs\Labs\App.xaml
-3-399974042
+6-1079138880
 
-8-1104443069
+132066296625
 13-1505183044
-MainWindow.xaml;WindowLabs2.xaml;WindowLabs3.xaml;
+MainWindow.xaml;OldLabs\Lab1Window.xaml;OldLabs\Lab2Window.xaml;OldLabs\MainWindow.xaml;WindowLabs2.xaml;WindowLabs3.xaml;
 
-True
+False
 

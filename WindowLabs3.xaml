@@ -22,7 +22,7 @@
         </Grid.ColumnDefinitions>
         
         <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3">
-            <Label Content="ПКС 17-3К" Style="Float: right"/>
+            <Label Content="ПКС 17-3К"/>
         </StackPanel>
 
         

@@ -10,10 +10,9 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Labs
+namespace Labs.OldLabs
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
@@ -25,24 +24,16 @@ namespace Labs
             InitializeComponent();
         }
 
-        private void Button_Click_Open_Labs3(object sender, RoutedEventArgs e)
+        private void Button_Click_Open_Lab1(object sender, RoutedEventArgs e)
         {
-            WindowLabs3 window = new WindowLabs3();
+            Lab1Window window = new Lab1Window();
             window.Show();
         }
 
-        private void Button_Click_Open_Labs2(object sender, RoutedEventArgs e)
+        private void Button_Click_Open_Lab2(object sender, RoutedEventArgs e)
         {
-            WindowLabs2 window = new WindowLabs2();
+            Lab2Window window = new Lab2Window();
             window.Show();
         }
-
-        private void Button_Click_Open_OldLabs(object sender, RoutedEventArgs e)
-        {
-            OldLabs.MainWindow window = new OldLabs.MainWindow();
-            window.Show();
-        }
-
-       
     }
 }
