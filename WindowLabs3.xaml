@@ -20,24 +20,33 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        
+
         <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3">
-            <Label Content="ПКС 17-3К"/>
+            <Label Name="labelGroup" HorizontalContentAlignment="Left" Content="ПКС 17-3К"/>
         </StackPanel>
 
-        
-        <TextBox Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" MinHeight="300" Text=""></TextBox>
-            
-        <Slider Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Minimum="10" Maximum="20"></Slider>
 
-        <Button Grid.Row="3" Grid.Column="0" Content="Влево" Margin="8"/>
-        <Button Grid.Row="3" Grid.Column="1" Content="Центр" Margin="8"/>
-        <Button Grid.Row="3" Grid.Column="2" Content="Вправо" Margin="8"/>
+        <TextBox Name="TextBox" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" MinHeight="300" Text="left"></TextBox>
 
-        <StackPanel Orientation="Horizontal" Margin="8"  Grid.Row="4" Grid.Column="1" Height="40">
-            <RadioButton Margin="8" Content="Влево" GroupName="Navigation"/>
-            <RadioButton Margin="8" Content="Центр" GroupName="Navigation"/>
-            <RadioButton Margin="8" Content="Вправо" GroupName="Navigation"/>
-        </StackPanel>
+        <Slider x:Name="Slider" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Minimum="1" Maximum="3" ValueChanged="Slider_ValueChanged"></Slider>
+
+        <Button Grid.Row="3" Grid.Column="0" Content="Влево" Margin="8" Click="Handler_Change_HorizontalAligment_Left"/>
+        <Button Grid.Row="3" Grid.Column="1" Content="Центр" Margin="8" Click="Handler_Change_HorizontalAligment_Center"/>
+        <Button Grid.Row="3" Grid.Column="2" Content="Вправо" Margin="8" Click="Handler_Change_HorizontalAligment_Right"/>
+        <Grid Grid.Column="1" Margin="8.2,10,7.6,0" Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <RadioButton Margin="0,1.2,0.2,24.4" Content="Влево" GroupName="Navigation" Checked="Handler_Change_HorizontalAligment_Left" Grid.Row="1" Grid.RowSpan="2"/>
+            <RadioButton Margin="4.8,1.2,0.4,24.4" Content="Центр" GroupName="Navigation" Checked="Handler_Change_HorizontalAligment_Center" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2"/>
+            <RadioButton Margin="82.8,1.2,-0.2,24.4" Content="Вправо" GroupName="Navigation" Checked="Handler_Change_HorizontalAligment_Right" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2"/>
+        </Grid>
     </Grid>
 </Window>

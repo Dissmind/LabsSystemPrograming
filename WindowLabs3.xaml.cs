@@ -23,5 +23,45 @@ namespace Labs
         {
             InitializeComponent();
         }
+
+        private void Handler_Change_HorizontalAligment_Center(object sender, RoutedEventArgs e)
+        {
+            SetHorizontalContent("center");
+        }
+
+        private void Handler_Change_HorizontalAligment_Right(object sender, RoutedEventArgs e)
+        {
+            SetHorizontalContent("right");
+        }
+
+        private void Handler_Change_HorizontalAligment_Left(object sender, RoutedEventArgs e)
+        {
+            SetHorizontalContent("left");
+        }
+
+        private void SetHorizontalContent(string value)
+        {
+            switch (value)
+            {
+                case "center": 
+                    labelGroup.HorizontalContentAlignment = HorizontalAlignment.Center;
+                    break;
+                case "right": 
+                    labelGroup.HorizontalContentAlignment = HorizontalAlignment.Right; 
+                    break;
+                case "left": 
+                    labelGroup.HorizontalContentAlignment = HorizontalAlignment.Left;
+                    break;
+            }
+
+            TextBox.Text = value;
+        }
+
+        private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (Slider.Value < 1.5) SetHorizontalContent("left");
+            if (Slider.Value > 1.5 &&  Slider.Value < 2.5) SetHorizontalContent("center");
+            if (Slider.Value > 2.5) SetHorizontalContent("right");
+        }
     }
 }
