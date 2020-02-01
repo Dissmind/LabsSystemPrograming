@@ -11,6 +11,7 @@
                 Margin="359,39,345.6,360" Click="Button_Click_Open_Lab1"
                 />
         <Button Content="Вычисление по формуле" HorizontalAlignment="Left" Margin="332,83,0,0" VerticalAlignment="Top" Width="147" Click="Button_Click_Open_Lab2" Height="23"/>
+        <Button Content="Работа с массивами" HorizontalAlignment="Left" Margin="332,134,0,0" VerticalAlignment="Top" Width="147" Click="Button_Click_Open_Lab3" Height="23"/>
 
     </Grid>
 </Window>

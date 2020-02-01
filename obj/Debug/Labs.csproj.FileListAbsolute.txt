@@ -22,3 +22,5 @@ D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\OldLabs\Lab1Window.g.cs
 D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\OldLabs\Lab1Window.baml
 D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\OldLabs\Lab2Window.g.cs
 D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\OldLabs\Lab2Window.baml
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\OldLabs\Lab3Window.g.cs
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\OldLabs\Lab3Window.baml

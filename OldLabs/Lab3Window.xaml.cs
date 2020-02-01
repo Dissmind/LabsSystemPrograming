@@ -15,22 +15,25 @@ using System.Windows.Shapes;
 namespace Labs.OldLabs
 {
     /// <summary>
-    /// Логика взаимодействия для Lab2Window.xaml
+    /// Логика взаимодействия для Lab3Window.xaml
     /// </summary>
-    public partial class Lab2Window : Window
+    public partial class Lab3Window : Window
     {
-        public Lab2Window()
+        public Lab3Window()
         {
             InitializeComponent();
         }
 
+        private void Button_Click_Generate_Array(object sender, RoutedEventArgs e)
+        {
+
+        }
+
         private void Button_Click_Calculate(object sender, RoutedEventArgs e)
         {
-            string calculateResult = Lab2.Calculate(variableA.Text, variableB.Text, variableC.Text);
+            labelResult.Content = Configuration.getLabelResultLab3();
 
-            labelResult.Content = "Результат";
-
-            result.Content = calculateResult;
+            result.Content = Lab3.Calculate(inputArray.Text);
         }
     }
 }

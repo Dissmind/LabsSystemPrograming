@@ -26,6 +26,7 @@ namespace Labs.OldLabs
 
         private void Button_Click_Open_Lab1(object sender, RoutedEventArgs e)
         {
+            Console.WriteLine("test");
             Lab1Window window = new Lab1Window();
             window.Show();
         }
@@ -33,6 +34,12 @@ namespace Labs.OldLabs
         private void Button_Click_Open_Lab2(object sender, RoutedEventArgs e)
         {
             Lab2Window window = new Lab2Window();
+            window.Show();
+        }
+
+        private void Button_Click_Open_Lab3(object sender, RoutedEventArgs e)
+        {
+            Lab3Window window = new Lab3Window();
             window.Show();
         }
     }

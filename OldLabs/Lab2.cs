@@ -1,9 +1,7 @@
 ﻿namespace Labs.OldLabs
 {
-    class Lab1
+    class Lab2
     {
-        //public static string Variable { set; private get; } = "1";
-
         public static string Calculate(string aVariable, string bVariable, string cVariable)
         {
             // Conversion to double
