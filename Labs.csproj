@@ -56,6 +56,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="OldLabs\Configuration.cs" />
+    <Compile Include="OldLabs\ForthLab\StringAlgorithms.cs" />
     <Compile Include="OldLabs\Lab2.cs" />
     <Compile Include="OldLabs\Lab1Window.xaml.cs">
       <DependentUpon>Lab1Window.xaml</DependentUpon>
@@ -66,6 +67,10 @@
     <Compile Include="OldLabs\Lab3.cs" />
     <Compile Include="OldLabs\Lab3Window.xaml.cs">
       <DependentUpon>Lab3Window.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OldLabs\ForthLab\Lab4.cs" />
+    <Compile Include="OldLabs\ForthLab\Lab4Window.xaml.cs">
+      <DependentUpon>Lab4Window.xaml</DependentUpon>
     </Compile>
     <Compile Include="OldLabs\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -97,6 +102,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="OldLabs\Lab3Window.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OldLabs\ForthLab\Lab4Window.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
