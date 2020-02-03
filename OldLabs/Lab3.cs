@@ -31,7 +31,6 @@ namespace Labs.OldLabs
 
             double[] array = new double[arrayLength + 1];
 
-
             // Array filling
             string variableHelper = "";
             int count = 0;
@@ -142,6 +141,7 @@ namespace Labs.OldLabs
                 // 29
                 i < 0,
                 // 30
+
                 // TODO: не превосходящих 20 по абсолютной величине
             };
 

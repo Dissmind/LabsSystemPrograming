@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="900">
 
-    <Grid>
+    <Grid Name="grid1">
         <StackPanel>
             <Button x:Name="Button_Lab2"
                     Content="Лабораторная №2"
@@ -15,7 +15,9 @@
                     Margin="100, 10, 100, 10"
                     Height="30"/>
             <Button x:Name="Button_Lab3" Content="Лабораторная №3" Click="Button_Click_Open_Labs3" Margin="100, 10, 100, 10" Height="30"/>
-            <Button x:Name="Button_Lab3_Copy" Content="Старые лабораторные работы" Click="Button_Click_Open_OldLabs" Margin="100, 10, 100, 10" Height="30"/>
+            <Button x:Name="Button_Lab4" Content="Лабораторная №4" Click="Button_Click_Open_Labs4" Margin="100, 10, 100, 10" Height="30"/>
+            
+            <Button x:Name="Button_OldLabs" Content="Старые лабораторные работы" Click="Button_Click_Open_OldLabs" Margin="100, 10, 100, 10" Height="30"/>
         </StackPanel>
     </Grid>
 </Window>

@@ -37,6 +37,12 @@ namespace Labs
             window.Show();
         }
 
+        private void Button_Click_Open_Labs4(object sender, RoutedEventArgs e)
+        {
+            WindowLab4 window = new WindowLab4();
+            window.Show();
+        }
+
         private void Button_Click_Open_OldLabs(object sender, RoutedEventArgs e)
         {
             OldLabs.MainWindow window = new OldLabs.MainWindow();

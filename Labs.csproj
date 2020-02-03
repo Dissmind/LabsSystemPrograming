@@ -75,6 +75,9 @@
     <Compile Include="OldLabs\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="WindowLabs4.xaml.cs">
+      <DependentUpon>WindowLabs4.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WindowLabs2.xaml.cs">
       <DependentUpon>WindowLabs2.xaml</DependentUpon>
     </Compile>
@@ -110,6 +113,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="OldLabs\MainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowLabs4.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

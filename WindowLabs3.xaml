@@ -33,7 +33,7 @@
         <Button Grid.Row="3" Grid.Column="0" Content="Влево" Margin="8" Click="Handler_Change_HorizontalAligment_Left"/>
         <Button Grid.Row="3" Grid.Column="1" Content="Центр" Margin="8" Click="Handler_Change_HorizontalAligment_Center"/>
         <Button Grid.Row="3" Grid.Column="2" Content="Вправо" Margin="8" Click="Handler_Change_HorizontalAligment_Right"/>
-        <Grid Grid.Column="1" Margin="8.2,10,7.6,0" Grid.Row="4">
+        <Grid Margin="10,10,5.6,0" Grid.Row="4" Grid.ColumnSpan="3">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
@@ -41,12 +41,12 @@
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="2*"/>
-                <RowDefinition Height="2*"/>
-                <RowDefinition Height="2*"/>
             </Grid.RowDefinitions>
-            <RadioButton Margin="0,1.2,0.2,24.4" Content="Влево" GroupName="Navigation" Checked="Handler_Change_HorizontalAligment_Left" Grid.Row="1" Grid.RowSpan="2"/>
-            <RadioButton Margin="4.8,1.2,0.4,24.4" Content="Центр" GroupName="Navigation" Checked="Handler_Change_HorizontalAligment_Center" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2"/>
-            <RadioButton Margin="82.8,1.2,-0.2,24.4" Content="Вправо" GroupName="Navigation" Checked="Handler_Change_HorizontalAligment_Right" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2"/>
+            <Grid Grid.ColumnSpan="3" Margin="2,0,26.4,0.4">
+                <RadioButton HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="0,0,495,0" Content="Влево" GroupName="Navigation" Checked="Handler_Change_HorizontalAligment_Left" MinWidth="226" Width="255"/>
+                <RadioButton HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="251,0,232,0" Content="Центр" GroupName="Navigation" Checked="Handler_Change_HorizontalAligment_Center" MinWidth="226" Width="267"/>
+                <RadioButton HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="523,0,1,0" Content="`Вправо" GroupName="Navigation" Checked="Handler_Change_HorizontalAligment_Right" MinWidth="226" Width="205" RenderTransformOrigin="0.5,0.5"/>
+            </Grid>
         </Grid>
     </Grid>
 </Window>

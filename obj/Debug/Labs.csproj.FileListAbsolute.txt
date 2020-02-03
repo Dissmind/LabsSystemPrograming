@@ -26,3 +26,5 @@ D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\OldLabs\Lab3Window.g.cs
 D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\OldLabs\Lab3Window.baml
 D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\OldLabs\ForthLab\Lab4Window.g.cs
 D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\OldLabs\ForthLab\Lab4Window.baml
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\WindowLabs4.g.cs
+D:\archiv\dev\source\csharp\Labs\Labs\obj\Debug\WindowLabs4.baml
